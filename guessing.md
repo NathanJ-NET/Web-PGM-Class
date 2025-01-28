@@ -1,6 +1,5 @@
 ```mermaid
 flowchart TD
-  Start([Start]) --> End([End])
   A[Start the program] --> B{Check to see if it actually started}
   B -- Yes --> C{Yep};
   B -- No --> D{Go figure out what went wrong, then try again};
